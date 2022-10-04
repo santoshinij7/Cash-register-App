@@ -1,0 +1,96 @@
+:root {
+    --primary-color: yellowgreen;
+    --secondary-color: black;
+    --third-color: white;
+  }
+  
+  * {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+  }
+  
+  label {
+    font-size: medium;
+  }
+  
+  .section {
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    margin: auto;
+    padding: 5rem 2rem;
+    text-align: center;
+    background-color: var(--primary-color);
+  }
+  
+  h1,
+  p,
+  label {
+    color: var(--third-color);
+  }
+  
+  .label {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    padding: 1.5rem 1rem 0.5rem;
+    color: var(--third-color);
+  }
+  
+  input {
+    width: 100%;
+    padding: 1rem;
+    height: 50px;
+    display: block;
+    border-radius: 2px solid var(--secondary-color);
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    margin: 1rem auto 0;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    border-radius: 1px solid var(--third-color);
+  }
+  
+  #check-button:hover {
+    background-color: var(--third-color);
+    color: var(--secondary-color);
+    transition: 0.4s;
+  }
+  
+  .errorMessage {
+    padding-top: 1rem;
+    color: var(--third-color);
+  }
+  
+  table,
+  th,
+  td {
+    padding: 0.2rem;
+    color: var(--secondary-color);
+    background-color: var(--third-color);
+    border: 2px solid var(--primary-color);
+    border-collapse: collapse;
+  }
+  
+  .noOfNotes {
+    background-color: var(--third-color);
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  .no-of-notes {
+    background-color: var(--third-color);
+  }
